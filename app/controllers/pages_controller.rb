@@ -1,8 +1,15 @@
 class PagesController < ApplicationController
-  def home
+  def home 
+    @title = "Home"
+    @sex = "fuk"
+    @bodyId="home"
   end
-
-  def contact
+  
+  def contact 
+    @title = "Contact"
   end
-
+  
+  def about 
+    @title = "About"
+  end 
 end
